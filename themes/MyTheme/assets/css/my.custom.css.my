@@ -1,0 +1,158 @@
+/* Custom CSS */
+
+.hjelms {
+margin-top: 30px;
+}
+
+.hjelms .hjelms-outer {
+    background: #fff;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    display: block !important;
+}
+
+.button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+    background: #4E9CAF !important;
+    background-color: #4E9CAF !important;
+    padding: 10px;
+}
+
+#tptndesktopmenu .desktopmenu .menu li a {
+text-transform: uppercase;
+}
+
+#header .tptnheaderlinks ul a {
+font-weight: 600;
+}
+
+.btn {
+font-weight: 700;
+font-size: larger;
+}
+
+
+.col-xs-1 {
+    float: left;
+    width: 10.33333%
+}
+.col-xs-8 {
+    float: left;
+    width: 64.66667%
+}
+.col-xl-8 {
+    float: left;
+    width: 64.66667%
+}
+
+.product-miniature .product-list-actions .btn-primary {
+padding: 0;
+height: 48px;
+line-height: 46px;
+width: 48px;
+}
+
+#header .mobile-header .m-toggle {
+
+color: #fff;
+text-align: center;
+height: 48px;
+line-height: 48px;
+cursor: pointer;
+}
+
+input[type='text'],
+input[type='number'],
+input[type='radio'],
+textarea {
+  font-size: 16px;
+}
+
+.custom-radio {
+    display: inline-block;
+    position: relative;
+    width: 36px;
+    height: 36px;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid #999;
+    background: #fff;
+    margin-right: .4rem
+}
+
+.custom-radio input[type=radio] {
+    opacity: 0;
+    cursor: pointer
+}
+
+.custom-radio input[type=radio]:checked + span {
+    display: block;
+    background-color: #333;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    position: absolute;
+    left: .5rem;
+    top: .5rem
+}
+
+.product-add-to-cart .product-quantity #quantity_wanted {
+height: 2.75rem;
+width: 3.5rem;
+}
+
+.bootstrap-touchspin input.form-control, .bootstrap-touchspin input.input-group {
+color: #232323;
+background-color: #fff;
+height: 2.5rem;
+padding: .175rem .5rem;
+width: 3.5rem;
+border: 1px solid rgba(0,0,0,.25);
+float: left;
+}
+
+@media print {
+
+.order-message-form {
+        display: none
+    }
+
+#order-history {
+        display: none
+    }
+
+#header {
+        display: none
+    }
+
+.breadcrumb {
+        display: none
+    }
+
+#tptnhtmlbox2 {
+        display: none
+    }
+
+.footer-container {
+        display: none
+    }
+
+.footer-bottom {
+        display: none
+    }
+
+#delivery-address {
+        display: none
+    }
+.page-footer {
+        display: none
+    }
+
+}
+
+
+
+
